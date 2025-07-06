@@ -1,5 +1,5 @@
-# This can be added when running the main docker-compose.yml file to add gpu support
-# add this in your command line: docker-compose -f docker-compose.yml -f docker-compose.gpu.yml up
+# This can be added when running the main docker compose.yml file to add gpu support
+# add this in your command line: docker compose -f docker compose.yml -f docker compose.gpu.yml up
 services:
   app:
     build:

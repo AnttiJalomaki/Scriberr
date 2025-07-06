@@ -169,7 +169,7 @@ Edit the `.env` file to set your desired configuration, including:
 To run Scriberr without GPU acceleration:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 This command uses the `docker-compose.yml` file and builds the Docker image using the `Dockerfile`.
@@ -179,10 +179,10 @@ This command uses the `docker-compose.yml` file and builds the Docker image usin
 To run Scriberr with GPU acceleration:
 
 ```bash
-docker-compose -f docker-compose.yml -f docker-compose.gpu.yml up -d
+docker compose -f compose.yml -f compose.gpu.yml up -d
 ```
 
-This command uses both `docker-compose.yml` and `docker-compose.gpu.yml` files and builds the Docker image using the `Dockerfile-gpu`.
+This command uses both `compose.yml` and `compose.gpu.yml` files and builds the Docker image using the `Dockerfile-gpu`.
 
 **Note**: Ensure that you have the NVIDIA Container Toolkit installed and properly configured.
 
@@ -264,7 +264,7 @@ Changes include:
 Check the logs for more details:
 
 ```bash
-docker-compose logs -f
+docker compose logs -f
 ```
 
 ### Need Help?

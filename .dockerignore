@@ -1,5 +1,5 @@
 .dockerdata
-docker-compose.ollama.yaml
+compose.ollama.yaml
 Dockerfile
 Dockerfile-cuda128
 install_audiowaveform.sh
